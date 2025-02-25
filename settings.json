@@ -1,0 +1,180 @@
+{
+  // Window settings
+  "window.customTitleBarVisibility": "auto",
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "window.autoDetectColorScheme": true,
+
+  // Workbench settings
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "workbench.editor.showTabs": "none",
+  "workbench.reduceMotion": "off",
+  "workbench.list.smoothScrolling": true,
+  "workbench.statusBar.visible": false,
+  "workbench.settings.applyToAllProfiles": [],
+
+  // Editor settings
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlayHints.padding": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+
+  // Terminal settings
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.enableImages": true,
+
+  // Explorer settings
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+
+  // Language specific settings
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // TypeScript/JavaScript settings
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+
+  // Python settings
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.regenerateStdLibIndices": true,
+
+  // Git settings
+  "git.openRepositoryInParentFolders": "never",
+
+  // Vim settings
+  "vim.smartRelativeLine": true,
+  "vim.leader": " ",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+
+  // Prettier settings
+  "prettier.experimentalTernaries": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+
+  // Cursor settings
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "cursor.aipreview.enabled": true,
+  "cursor.cmdk.useThemedDiffBackground": true,
+
+  // Chat settings
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "inlineChat.lineEmptyHint": true,
+
+  // Color customizations
+  "workbench.colorCustomizations": {
+    "list.activeSelectionBackground": "#1a1b26",
+    "list.inactiveSelectionBackground": "#1a1b26",
+    "list.hoverBackground": "#1a1b26",
+    "sideBar.background": "#1a1b26",
+    "sideBar.foreground": "#a9b1d6",
+    "sideBarSectionHeader.background": "#1a1b26",
+    "sideBarSectionHeader.foreground": "#a9b1d6",
+    "titleBar.activeBackground": "#1a1b26",
+    "titleBar.activeForeground": "#a9b1d6",
+    "titleBar.inactiveBackground": "#1a1b26",
+    "titleBar.inactiveForeground": "#a9b1d6",
+    "breadcrumb.activeSelectionForeground": "#a9b1d6",
+    "breadcrumb.foreground": "#a9b1d6",
+    "breadcrumb.background": "#1a1b26",
+    "scrollbar.shadow": "#00000000",
+    "panel.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "editorGroup.border": "#00000000",
+    "editorGroupHeader.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "titleBar.border": "#00000000",
+    "activityBar.border": "#00000000",
+    "tab.border": "#00000000",
+    "tab.activeBorder": "#00000000",
+    "tab.unfocusedActiveBorder": "#00000000",
+    "tab.hoverBorder": "#00000000",
+    "tab.unfocusedHoverBorder": "#00000000",
+    "tab.activeBorderTop": "#00000000",
+    "tab.unfocusedActiveBorderTop": "#00000000",
+    "tab.lastPinnedBorder": "#00000000",
+    "tab.activeModifiedBorder": "#00000000",
+    "tab.unfocusedActiveModifiedBorder": "#00000000",
+    "tab.inactiveModifiedBorder": "#00000000",
+    "tab.unfocusedInactiveModifiedBorder": "#00000000",
+    "tab.hoverBackground": "#00000000",
+    "tab.unfocusedHoverBackground": "#00000000",
+    "tab.activeBackground": "#00000000",
+    "tab.unfocusedActiveBackground": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+    "tab.unfocusedInactiveBackground": "#00000000",
+    "tab.activeForeground": "#00000000",
+    "tab.unfocusedActiveForeground": "#00000000",
+    "tab.inactiveForeground": "#00000000",
+    "tab.unfocusedInactiveForeground": "#00000000",
+    "tab.hoverForeground": "#00000000",
+    "tab.unfocusedHoverForeground": "#00000000",
+    "tab.inactiveBorder": "#00000000",
+    "tab.unfocusedInactiveBorder": "#00000000",
+    "list.focusOutline": "#00000000",
+    "list.focusBackground": "#00000000",
+    "list.focusForeground": "#00000000",
+    "list.focusAndSelectionOutline": "#00000000",
+    "list.focusAndSelectionBackground": "#00000000",
+    "list.focusAndSelectionForeground": "#00000000",
+    "list.focusAndSelectionHighlightForeground": "#00000000",
+    "list.focusAndSelectionHighlightBackground": "#00000000",
+    "list.focusAndSelectionHighlightOutline": "#00000000",
+    "scrollbarSlider.hoverBackground": "#00000000",
+    "scrollbarSlider.activeBackground": "#00000000",
+    "scrollbarSlider.border": "#00000000",
+    "scrollbarSlider.hoverBorder": "#00000000",
+    "scrollbarSlider.activeBorder": "#00000000",
+    "scrollbarSlider.shadow": "#00000000",
+    "scrollbarSlider.hoverShadow": "#00000000",
+    "scrollbarSlider.activeShadow": "#00000000",
+    "sideBar.shadow": "#00000000",
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBarSectionHeader.shadow": "#00000000",
+    "sideBarTitle.shadow": "#00000000"
+  }
+}
