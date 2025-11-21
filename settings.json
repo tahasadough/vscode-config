@@ -5,7 +5,7 @@
   "window.autoDetectColorScheme": true,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "null",
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "workbench.editor.showTabs": "none",
   "workbench.reduceMotion": "off",
@@ -137,5 +137,6 @@
     "editor.defaultFormatter": "golang.go"
   },
   "window.commandCenter": false,
-  "chat.commandCenter.enabled": false
+  "chat.commandCenter.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden"
 }
