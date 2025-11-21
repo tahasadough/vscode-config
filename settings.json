@@ -113,6 +113,7 @@
     { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
     { "before": ["<leader>", "f"], "commands": ["workbench.action.quickOpen"] }
   ],
+  "vim.useSystemClipboard": true,
 
   "remote.defaultExtensionsIfInstalledLocally": [
     "GitHub.copilot",
